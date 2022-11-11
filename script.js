@@ -3,7 +3,6 @@ const container = document.querySelector('#container')
 const color = document.querySelector('#color')
 const resetButton = document.querySelector('.btn')
 const pixelSize = document.querySelector('.pixelSize')
-const toggleButton = document.querySelector('.toggle')
 
 let size = pixelSize.value
 
