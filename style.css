@@ -54,3 +54,28 @@ button {
 .pixel {
     background-color: white;
 }
+
+
+/*style the slider and slider and button*/
+.pixelSize {
+    padding: 0;
+    outline: none;
+    margin-top: 0.75rem;
+    background-color: rgba(0,0,0,0.25);
+    appearance: none;
+    width: 395px;
+    height: 1rem;
+    transition: 0.5s;
+}
+
+
+.pixelSize:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.pixelSize::-moz-range-thumb {
+    cursor: pointer;
+    background-color: white;
+    width: 1.5rem;
+    border-radius: 0;
+}
