@@ -13,14 +13,17 @@
 <body>
     <header>Pixel Art</header>
     <div class="container" id="container">
-        <div class="canvas" id="canvas">
+        <div class="canvas-wrapper">
+            <div class="canvas" id="canvas">
+            </div>
+            <input orient="vertical" type="range" min="4" max="100" value="30" class="pixelSize" id="pixelSize" >
         </div>
-        <input type="range" min="4" max="100" value="30" class="pixelSize" id="pixelSize">
         <nav>
             <input type="color" value="#00eeff" class="color" id="color">
             <button class="btn">Reset</button>
         </nav>
     </div>
+    
 </body>
 
 </html>
