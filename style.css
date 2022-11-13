@@ -48,19 +48,31 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
-input, button {
+    
+.color {
+    border: none;
+    outline: none;
+    padding: 0;
     height: 2rem;
-    padding: 0 0.2rem;
+    transition: 0.2s;
 }
 
 .reset-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    height: 2rem;
+    padding: 0 0.2rem;
     border: none;
     width: 5rem;
     border-radius: 5px;
     background-color: orange;
     outline: none;
     margin: 0 0.4rem;
+    transition: 0.2s;
+}
+
+.reset-btn:hover, .color:hover {
+    transform: scale(1.05);
 }
     
 .pixel {
