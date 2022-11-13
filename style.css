@@ -54,7 +54,12 @@ input, button {
     padding: 0 0.2rem;
 }
 
-button {
+.reset-btn {
+    border: none;
+    width: 5rem;
+    border-radius: 5px;
+    background-color: orange;
+    outline: none;
     margin: 0 0.4rem;
 }
     
@@ -77,6 +82,7 @@ button {
     cursor: pointer;
     background-color: white;
     width: 1.5rem;
+    height: 1.5rem;
     border-radius: 0;
 }
 
@@ -88,6 +94,6 @@ button {
 .pixelSize::-moz-range-thumb {
     cursor: pointer;
     background-color: white;
-    width: 1.5rem;
+    width: 1.2rem;
     border-radius: 0;
 } 
