@@ -1,7 +1,7 @@
 const canvas = document.querySelector('#canvas')
 const container = document.querySelector('#container')
 const color = document.querySelector('#color')
-const resetButton = document.querySelector('.btn')
+const resetButton = document.querySelector('.reset-btn')
 const pixelSize = document.querySelector('.pixelSize')
 
 let size = pixelSize.value
